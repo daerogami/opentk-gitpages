@@ -10,7 +10,7 @@
 	<nav class="site-nav">
 		<ul>
 			{% for page in site.pages %}
-				{% if page.title and page.hide != true and page.excludeFromMenu != true %}
+				{% if page.title and page.hide != true and page.menuItem == true %}
 
 					<!-- make sure to only show link to first page og blog -->
 					{% if page.isBlog != true or listedBlog != true %}

@@ -2,6 +2,7 @@
 layout: page
 title: FAQ
 permalink: /faq/
+menuItem: true
 ---
 
 #### What platforms are supported?
